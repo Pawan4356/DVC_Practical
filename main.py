@@ -10,11 +10,11 @@ data = {
 df = pd.DataFrame(data)
 
 # Adding rows
-new_row1 = {'Name': 'Sheldon', 'Age': 27, 'City': 'CooperLand'}
-df.loc[len(df.index)] = new_row1
+# new_row1 = {'Name': 'Sheldon', 'Age': 27, 'City': 'CooperLand'}
+# df.loc[len(df.index)] = new_row1
 
-new_row2 = {'Name': 'Tamale', 'Age': 35, 'City': 'Tweebuffelsmeteenskootmorsdoodgeskietfontein'}
-df.loc[len(df.index)] = new_row2
+# new_row2 = {'Name': 'Tamale', 'Age': 35, 'City': 'Tweebuffelsmeteenskootmorsdoodgeskietfontein'}
+# df.loc[len(df.index)] = new_row2
 
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)

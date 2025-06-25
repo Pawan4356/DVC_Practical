@@ -147,7 +147,6 @@ dvc status
 git status
 ```
 
-
 ## 🔁 Repeat for Version 3
 
 Repeat steps 12–14 to add a third version of your data.
